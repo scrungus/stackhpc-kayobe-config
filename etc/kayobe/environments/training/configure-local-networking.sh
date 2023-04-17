@@ -8,9 +8,9 @@ set -o pipefail
 # IP addresses on the all-in-one Kayobe cloud network.
 # These IP addresses map to those statically configured in
 # etc/kayobe/network-allocation.yml and etc/kayobe/networks.yml.
-controller_vip=192.168.33.2
-seed_hv_ip=192.168.33.4
-seed_vm_ip=192.168.33.5
+controller_vip=192.168.51.2
+seed_hv_ip=192.168.51.4
+seed_vm_ip=192.168.51.5
 
 iface=$(ip route | awk '$1 == "default" {print $5; exit}')
 
