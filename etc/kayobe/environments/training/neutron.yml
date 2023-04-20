@@ -10,4 +10,4 @@ kolla_neutron_ml2_type_drivers:
 kolla_neutron_ml2_tenant_network_types:
   - flat
   - vlan
-  - vlxan
+  - vxlan

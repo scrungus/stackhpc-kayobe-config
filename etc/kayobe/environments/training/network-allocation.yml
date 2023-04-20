@@ -1,8 +1,21 @@
 external_ips:
+  compute0: 192.168.54.5
+  compute1: 192.168.54.6
+  controller0: 192.168.54.2
+  controller1: 192.168.54.3
+  controller2: 192.168.54.4
   seed-hypervisor: 192.168.54.1
 internal_ips:
+  compute0: 192.168.53.7
+  compute1: 192.168.53.8
+  controller0: 192.168.53.4
+  controller1: 192.168.53.5
+  controller2: 192.168.53.6
   seed-hypervisor: 192.168.53.3
 mgmt_ips:
+  controller0: 192.168.50.3
+  controller1: 192.168.50.4
+  controller2: 192.168.50.5
   seed: 192.168.50.2
   seed-hypervisor: 192.168.50.1
 provision_oc_ips:
@@ -14,6 +27,24 @@ provision_oc_ips:
   seed: 192.168.51.5
   seed-hypervisor: 192.168.51.4
 provision_wl_ips:
+  controller0: 192.168.52.2
+  controller1: 192.168.52.3
+  controller2: 192.168.52.4
   seed-hypervisor: 192.168.52.1
 public_ips:
+  controller0: 192.168.55.4
+  controller1: 192.168.55.5
+  controller2: 192.168.55.6
   seed-hypervisor: 192.168.55.3
+storage_ips:
+  compute0: 192.168.57.4
+  compute1: 192.168.57.5
+  controller0: 192.168.57.1
+  controller1: 192.168.57.2
+  controller2: 192.168.57.3
+tunnel_ips:
+  compute0: 192.168.56.4
+  compute1: 192.168.56.5
+  controller0: 192.168.56.1
+  controller1: 192.168.56.2
+  controller2: 192.168.56.3
